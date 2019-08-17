@@ -1,0 +1,130 @@
+{
+    "__COMMENT__ More Information": "https://github.com/mozilla/policy-templates/blob/master/README.md",
+
+    "policies": {
+        "AppUpdateURL": "https://localhost",
+        "DisableAppUpdate": true,
+        "OverridePostUpdatePage": "",
+        "DisableSystemAddonUpdate": true,
+        "DisableFirefoxAccounts": true,
+        "DisableProfileImport": false,
+        "DisableMasterPasswordCreation": true,
+        "DisableFirefoxStudies": true,
+        "DisableTelemetry": true,
+        "DisableFeedbackCommands": true,
+        "DisablePocket": true,
+        "DisableSetDesktopBackground": false,
+        "DisableDeveloperTools": false,
+        "DNSOverHTTPS": {
+          "Enabled": true,
+          "ProviderURL": "https://dns.quad9.net/dns-query",
+          "Locked": false
+        },
+
+        "Bookmarks": [
+              {
+                "Title": "Library",
+                "URL": "chrome://browser/content/places/places.xul",
+                "Placement": "menu",
+                "Folder": "LibreWolf"
+              },
+              {
+                "Title": "Restart LibreWolf",
+                "URL": "about:restartrequired",
+                "Placement": "menu",
+                "Folder": "LibreWolf"
+              },
+              {
+                "Title": "Advanced Preferences",
+                "URL": "about:config",
+                "Placement": "menu",
+                "Folder": "LibreWolf"
+              },
+              {
+                "Title": "All about pages",
+                "URL": "about:about",
+                "Placement": "menu",
+                "Folder": "LibreWolf"
+              },
+              {
+                "Title": "LibreWolf Profiles",
+                "URL": "about:profiles",
+                "Placement": "menu",
+                "Folder": "LibreWolf"
+              }
+        ],
+
+        "WebsiteFilter": {
+            "Block": ["https://localhost/*"],
+            "Exceptions": ["https://localhost/*"]
+        },
+
+        "Extensions": {
+            "Install": ["https://addons.mozilla.org/firefox/downloads/file/3027669/ublock_origin-1.20.0-an+fx.xpi"],
+            "Uninstall": [""],
+            "Locked":  [""]
+        },
+
+        "SearchEngines": {
+            "PreventInstalls": false,
+            "Default": "DuckDuckGo",
+            "Remove": ["Google", "Bing", "Amazon.com", "eBay", "Twitter"],
+            "Add": [
+                {
+                    "Name": "Searx",
+                    "Alias": "",
+                    "Description": "A privacy-respecting, hackable metasearch engine",
+                    "URLTemplate": "https://www.searx.me/?q={searchTerms}",
+                    "SuggestURLTemplate": "https://www.searx.me/?q={searchTerms}",
+                    "IconURL": "https://www.searx.me/static/themes/oscar/img/favicon.png",
+                    "Method": "GET"
+                },
+                {
+                    "Name": "StartPage",
+                    "Alias": "",
+                    "Description": "The world's most private search engine",
+                    "URLTemplate": "https://www.startpage.com/do/search?query={searchTerms}",
+                    "SuggestURLTemplate": "https://www.startpage.com/do/search?query={searchTerms}",
+                    "IconURL": "https://www.startpage.com/assets/images/logo-180x180.png",
+                    "Method": "GET"
+                },
+                {
+                    "Name": "Jive Search",
+                    "Alias": "",
+                    "Description": "A search engine that doesn't track you.",
+                    "URLTemplate": "https://jivesearch.com/?q={searchTerms}",
+                    "SuggestURLTemplate": "https://jivesearch.com/?q={searchTerms}",
+                    "IconURL": "https://jivesearch.com/static/icons/favicon.ico",
+                    "Method": "GET"
+                },
+                {
+                    "Name": "Quant",
+                    "Alias": "",
+                    "Description": "The search engine that respects your privacy.",
+                    "URLTemplate": "https://www.qwant.com/?q={searchTerms}",
+                    "SuggestURLTemplate": "https://www.qwant.com/?q={searchTerms}",
+                    "IconURL": "https://www.qwant.com/favicon-196.png",
+                    "Method": "GET"
+                },
+                {
+                    "Name": "MetaGer",
+                    "Alias": "",
+                    "Description": "MetaGer: Privacy Protected Search & Find",
+                    "URLTemplate": "https://metager.org/meta/meta.ger3?eingabe={searchTerms}",
+                    "SuggestURLTemplate": "https://metager.org/meta/meta.ger3?eingabe={searchTerms}",
+                    "IconURL": "https://metager.org/favicon.ico",
+                    "Method": "GET"
+                },
+                {
+                    "Name": "Invidious",
+                    "Alias": "",
+                    "Description": "Invidious is an alternative front-end to YouTube",
+                    "URLTemplate": "https://invidio.us/search?q={searchTerms}",
+                    "SuggestURLTemplate": "https://invidio.us/search?q={searchTerms}",
+                    "IconURL": "https://invidio.us/favicon-32x32.png",
+                    "Method": "GET"
+                }
+            ]
+        }
+    }
+}
