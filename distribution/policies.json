@@ -60,7 +60,7 @@
         },
 
         "Extensions": {
-            "Install": ["https://addons.mozilla.org/firefox/downloads/file/3027669/ublock_origin-1.20.0-an+fx.xpi"],
+            "Install": ["https://addons.mozilla.org/firefox/downloads/file/3521827/ublock_origin-1.25.2-an+fx.xpi"],
             "Uninstall": [""],
             "Locked":  [""]
         },
