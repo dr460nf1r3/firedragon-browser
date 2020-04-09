@@ -16,8 +16,8 @@
         "DisableSetDesktopBackground": false,
         "DisableDeveloperTools": false,
         "DNSOverHTTPS": {
-          "Enabled": true,
-          "ProviderURL": "https://dns.quad9.net/dns-query",
+          "Enabled": false,
+          "ProviderURL": "",
           "Locked": false
         },
 
