@@ -82,7 +82,6 @@
                     "Alias": "",
                     "Description": "A privacy-respecting, hackable metasearch engine",
                     "URLTemplate": "https://searx.be/?q={searchTerms}",
-                    "SuggestURLTemplate": "https://searx.be/?q={searchTerms}",
                     "PostData": "q={searchTerms}&time_range=&language=en-US&category_general=on",
                     "IconURL": "https://searx.be/favicon.ico",
                     "Method": "POST"
@@ -92,7 +91,6 @@
                     "Alias": "",
                     "Description": "The world's most private search engine",
                     "URLTemplate": "https://www.startpage.com/do/search?query={searchTerms}",
-                    "SuggestURLTemplate": "https://www.startpage.com/do/search?query={searchTerms}",
                     "IconURL": "https://www.startpage.com/assets/images/logo-180x180.png",
                     "Method": "GET"
                 },
@@ -101,7 +99,6 @@
                     "Alias": "",
                     "Description": "A search engine that doesn't track you.",
                     "URLTemplate": "https://jivesearch.com/?q={searchTerms}",
-                    "SuggestURLTemplate": "https://jivesearch.com/?q={searchTerms}",
                     "IconURL": "https://jivesearch.com/static/icons/favicon.ico",
                     "Method": "GET"
                 },
@@ -110,7 +107,6 @@
                     "Alias": "",
                     "Description": "The search engine that respects your privacy.",
                     "URLTemplate": "https://www.qwant.com/?q={searchTerms}",
-                    "SuggestURLTemplate": "https://www.qwant.com/?q={searchTerms}",
                     "IconURL": "https://www.qwant.com/favicon-196.png",
                     "Method": "GET"
                 },
@@ -119,7 +115,6 @@
                     "Alias": "",
                     "Description": "MetaGer: Privacy Protected Search & Find",
                     "URLTemplate": "https://metager.org/meta/meta.ger3?eingabe={searchTerms}",
-                    "SuggestURLTemplate": "https://metager.org/meta/meta.ger3?eingabe={searchTerms}",
                     "IconURL": "https://metager.org/favicon.ico",
                     "Method": "GET"
                 },
@@ -128,7 +123,6 @@
                     "Alias": "",
                     "Description": "Invidious is an alternative front-end to YouTube",
                     "URLTemplate": "https://invidio.us/search?q={searchTerms}",
-                    "SuggestURLTemplate": "https://invidio.us/search?q={searchTerms}",
                     "IconURL": "https://invidio.us/favicon-32x32.png",
                     "Method": "GET"
                 }
