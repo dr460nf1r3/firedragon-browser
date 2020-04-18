@@ -70,61 +70,61 @@
             "Add": [
                 {
                     "Name": "DuckDuckGo Lite",
-                    "Alias": "",
                     "Description": "Minimal, ad-free version of DuckDuckGo",
+                    "Alias": "",
+                    "Method": "POST",
                     "URLTemplate": "https://duckduckgo.com/lite/?q={searchTerms}",
                     "PostData": "q={searchTerms}",
-                    "IconURL": "https://duckduckgo.com/favicon.ico",
-                    "Method": "POST"
+                    "IconURL": "https://duckduckgo.com/favicon.ico"
                 },
                 {
                     "Name": "Searx",
-                    "Alias": "",
                     "Description": "A privacy-respecting, hackable metasearch engine",
+                    "Alias": "",
+                    "Method": "POST",
                     "URLTemplate": "https://searx.be/?q={searchTerms}",
                     "PostData": "q={searchTerms}&time_range=&language=en-US&category_general=on",
-                    "IconURL": "https://searx.be/favicon.ico",
-                    "Method": "POST"
+                    "IconURL": "https://searx.be/favicon.ico"
                 },
                 {
                     "Name": "StartPage",
-                    "Alias": "",
                     "Description": "The world's most private search engine",
+                    "Alias": "",
+                    "Method": "GET",
                     "URLTemplate": "https://www.startpage.com/do/search?query={searchTerms}",
-                    "IconURL": "https://www.startpage.com/assets/images/logo-180x180.png",
-                    "Method": "GET"
+                    "IconURL": "https://www.startpage.com/assets/images/logo-180x180.png"
                 },
                 {
                     "Name": "Jive Search",
-                    "Alias": "",
                     "Description": "A search engine that doesn't track you.",
+                    "Alias": "",
+                    "Method": "GET",
                     "URLTemplate": "https://jivesearch.com/?q={searchTerms}",
-                    "IconURL": "https://jivesearch.com/static/icons/favicon.ico",
-                    "Method": "GET"
+                    "IconURL": "https://jivesearch.com/static/icons/favicon.ico"
                 },
                 {
                     "Name": "Quant",
-                    "Alias": "",
                     "Description": "The search engine that respects your privacy.",
+                    "Alias": "",
+                    "Method": "GET",
                     "URLTemplate": "https://www.qwant.com/?q={searchTerms}",
-                    "IconURL": "https://www.qwant.com/favicon-196.png",
-                    "Method": "GET"
+                    "IconURL": "https://www.qwant.com/favicon-196.png"
                 },
                 {
                     "Name": "MetaGer",
-                    "Alias": "",
                     "Description": "MetaGer: Privacy Protected Search & Find",
+                    "Alias": "",
+                    "Method": "GET",
                     "URLTemplate": "https://metager.org/meta/meta.ger3?eingabe={searchTerms}",
-                    "IconURL": "https://metager.org/favicon.ico",
-                    "Method": "GET"
+                    "IconURL": "https://metager.org/favicon.ico"
                 },
                 {
                     "Name": "Invidious",
-                    "Alias": "",
                     "Description": "Invidious is an alternative front-end to YouTube",
+                    "Alias": "",
+                    "Method": "GET",
                     "URLTemplate": "https://invidio.us/search?q={searchTerms}",
-                    "IconURL": "https://invidio.us/favicon-32x32.png",
-                    "Method": "GET"
+                    "IconURL": "https://invidio.us/favicon-32x32.png"
                 }
             ]
         }
