@@ -81,10 +81,11 @@
                     "Name": "Searx",
                     "Alias": "",
                     "Description": "A privacy-respecting, hackable metasearch engine",
-                    "URLTemplate": "https://www.searx.me/?q={searchTerms}",
-                    "SuggestURLTemplate": "https://www.searx.me/?q={searchTerms}",
-                    "IconURL": "https://www.searx.me/static/themes/oscar/img/favicon.png",
-                    "Method": "GET"
+                    "URLTemplate": "https://searx.be/?q={searchTerms}",
+                    "SuggestURLTemplate": "https://searx.be/?q={searchTerms}",
+                    "PostData": "q={searchTerms}&time_range=&language=en-US&category_general=on",
+                    "IconURL": "https://searx.be/favicon.ico",
+                    "Method": "POST"
                 },
                 {
                     "Name": "StartPage",
