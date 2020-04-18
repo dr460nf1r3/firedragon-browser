@@ -69,6 +69,15 @@
             "Remove": ["Google", "Bing", "Amazon.com", "eBay", "Twitter"],
             "Add": [
                 {
+                    "Name": "DuckDuckGo Lite",
+                    "Alias": "",
+                    "Description": "Minimal, ad-free version of DuckDuckGo",
+                    "URLTemplate": "https://duckduckgo.com/lite/?q={searchTerms}",
+                    "PostData": "q={searchTerms}",
+                    "IconURL": "https://duckduckgo.com/favicon.ico",
+                    "Method": "POST"
+                },
+                {
                     "Name": "Searx",
                     "Alias": "",
                     "Description": "A privacy-respecting, hackable metasearch engine",
