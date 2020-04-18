@@ -4,6 +4,7 @@
     "policies": {
         "AppUpdateURL": "https://localhost",
         "DisableAppUpdate": true,
+        "OverrideFirstRunPage": "",
         "OverridePostUpdatePage": "",
         "DisableSystemAddonUpdate": true,
         "DisableFirefoxAccounts": true,
