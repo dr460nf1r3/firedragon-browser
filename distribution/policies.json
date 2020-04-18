@@ -129,6 +129,11 @@
                     "IconURL": "https://invidio.us/favicon-32x32.png"
                 }
             ]
+        },
+
+        "SupportMenu": {
+            "Title": "LibreWolf Issue Tracker",
+            "URL": "https://gitlab.com/librewolf-community/settings/issues"
         }
     }
 }
