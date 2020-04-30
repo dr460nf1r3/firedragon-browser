@@ -105,7 +105,7 @@
                     "IconURL": "https://jivesearch.com/static/icons/favicon.ico"
                 },
                 {
-                    "Name": "Quant",
+                    "Name": "Qwant",
                     "Description": "The search engine that respects your privacy.",
                     "Alias": "",
                     "Method": "GET",
