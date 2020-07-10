@@ -62,7 +62,7 @@
 
         "Extensions": {
             "Install": [
-                "https://addons.mozilla.org/firefox/downloads/file/3579401/ublock_origin-1.27.10-an+fx.xpi"
+                "https://addons.mozilla.org/firefox/downloads/file/3600118/ublock_origin-1.28.0-an+fx.xpi"
             ],
             "Uninstall": [
                 "google@search.mozilla.org",
