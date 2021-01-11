@@ -128,14 +128,6 @@
                     "Method": "GET",
                     "URLTemplate": "https://metager.org/meta/meta.ger3?eingabe={searchTerms}",
                     "IconURL": "https://metager.org/favicon.ico"
-                },
-                {
-                    "Name": "Invidious",
-                    "Description": "Invidious is an alternative front-end to YouTube",
-                    "Alias": "",
-                    "Method": "GET",
-                    "URLTemplate": "https://invidio.us/search?q={searchTerms}",
-                    "IconURL": "https://invidio.us/favicon-32x32.png"
                 }
             ]
         },
