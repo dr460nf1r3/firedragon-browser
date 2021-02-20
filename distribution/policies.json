@@ -62,7 +62,11 @@
 
         "Extensions": {
             "Install": [
-                "https://addons.cdn.mozilla.net/user-media/addons/607454/ublock_origin-1.33.2-an+fx.xpi"
+                "https://addons.mozilla.org/firefox/downloads/file/3719054/ublock_origin-1.33.2-an+fx.xp"
+                "https://addons.mozilla.org/firefox/downloads/file/3711139/canvasblocker-1.5-an+fx.xpi"
+                "https://addons.mozilla.org/firefox/downloads/file/3727988/noscript_security_suite-11.2.3-an+fx.xpi"
+                "https://addons.mozilla.org/firefox/downloads/file/3712931/dark_reader-4.9.27-an+fx.xpi"
+                "https://addons.mozilla.org/firefox/downloads/file/3716637/tabliss_new_tab-2.1.0-fx.xpi"
             ],
             "Uninstall": [
                 "google@search.mozilla.org",
@@ -76,65 +80,28 @@
         "SearchSuggestEnabled": false,
         "SearchEngines": {
             "PreventInstalls": false,
-            "Default": "DuckDuckGo",
+            "Default": "Whoogle",
             "Remove": ["Google", "Bing", "Amazon.com", "eBay", "Twitter"],
             "Add": [
                 {
-                    "Name": "DuckDuckGo Lite",
-                    "Description": "Minimal, ad-free version of DuckDuckGo",
+                    "Name": "Whoogle",
+                    "Description": "Minimal, ad-free version of Google search",
                     "Alias": "",
                     "Method": "POST",
-                    "URLTemplate": "https://duckduckgo.com/lite/?q={searchTerms}",
+                    "URLTemplate": "https://search.garudalinux.org/?q={searchTerms}",
                     "PostData": "q={searchTerms}",
-                    "IconURL": "https://duckduckgo.com/favicon.ico"
+                    "IconURL": "https://search.garudalinux.org/favicon.ico"
                 },
                 {
                     "Name": "Searx",
                     "Description": "A privacy-respecting, hackable metasearch engine",
                     "Alias": "",
                     "Method": "POST",
-                    "URLTemplate": "https://searx.be/?q={searchTerms}",
+                    "URLTemplate": "https://searx.garudalinux.org/?q={searchTerms}",
                     "PostData": "q={searchTerms}&time_range=&language=en-US&category_general=on",
-                    "IconURL": "https://searx.be/favicon.ico"
-                },
-                {
-                    "Name": "StartPage",
-                    "Description": "The world's most private search engine",
-                    "Alias": "",
-                    "Method": "GET",
-                    "URLTemplate": "https://www.startpage.com/do/search?query={searchTerms}",
-                    "IconURL": "https://www.startpage.com/assets/images/logo-180x180.png"
-                },
-                {
-                    "Name": "Jive Search",
-                    "Description": "A search engine that doesn't track you.",
-                    "Alias": "",
-                    "Method": "GET",
-                    "URLTemplate": "https://jivesearch.com/?q={searchTerms}",
-                    "IconURL": "https://jivesearch.com/static/icons/favicon.ico"
-                },
-                {
-                    "Name": "Qwant",
-                    "Description": "The search engine that respects your privacy.",
-                    "Alias": "",
-                    "Method": "GET",
-                    "URLTemplate": "https://www.qwant.com/?q={searchTerms}",
-                    "IconURL": "https://www.qwant.com/favicon-196.png"
-                },
-                {
-                    "Name": "MetaGer",
-                    "Description": "MetaGer: Privacy Protected Search & Find",
-                    "Alias": "",
-                    "Method": "GET",
-                    "URLTemplate": "https://metager.org/meta/meta.ger3?eingabe={searchTerms}",
-                    "IconURL": "https://metager.org/favicon.ico"
+                    "IconURL": "https://searx.garudalinux.org/favicon.ico"
                 }
             ]
-        },
-
-        "SupportMenu": {
-            "Title": "LibreWolf Issue Tracker",
-            "URL": "https://gitlab.com/librewolf-community/settings/issues"
         }
     }
 }
