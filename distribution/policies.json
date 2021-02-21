@@ -27,31 +27,31 @@
                 "Title": "Library",
                 "URL": "chrome://browser/content/places/places.xul",
                 "Placement": "menu",
-                "Folder": "LibreWolf"
+                "Folder": "DragonWolf"
               },
               {
-                "Title": "Restart LibreWolf",
+                "Title": "Restart DragonWolf",
                 "URL": "about:restartrequired",
                 "Placement": "menu",
-                "Folder": "LibreWolf"
+                "Folder": "DragonWolf"
               },
               {
                 "Title": "Advanced Preferences",
                 "URL": "about:config",
                 "Placement": "menu",
-                "Folder": "LibreWolf"
+                "Folder": "DragonWolf"
               },
               {
                 "Title": "All about pages",
                 "URL": "about:about",
                 "Placement": "menu",
-                "Folder": "LibreWolf"
+                "Folder": "DragonWolf"
               },
               {
-                "Title": "LibreWolf Profiles",
+                "Title": "DragonWolf Profiles",
                 "URL": "about:profiles",
                 "Placement": "menu",
-                "Folder": "LibreWolf"
+                "Folder": "DragonWolf"
               }
         ],
 
@@ -80,13 +80,13 @@
         "SearchSuggestEnabled": true,
         "SearchEngines": {
             "PreventInstalls": false,
-            "Default": "Whoogle",
+            "Default": "Searx",
             "Remove": ["Google", "Bing", "Amazon.com", "eBay", "Twitter"],
             "Add": [
                 {
                     "Name": "Whoogle",
                     "Description": "Minimal, ad-free version of Google search",
-                    "Alias": "",
+                    "Alias": "wg",
                     "Method": "POST",
                     "URLTemplate": "https://search.garudalinux.org/?q={searchTerms}",
                     "PostData": "q={searchTerms}",
@@ -95,7 +95,7 @@
                 {
                     "Name": "Searx",
                     "Description": "A privacy-respecting, hackable metasearch engine",
-                    "Alias": "",
+                    "Alias": "sx",
                     "Method": "POST",
                     "URLTemplate": "https://searx.garudalinux.org/?q={searchTerms}",
                     "PostData": "q={searchTerms}&time_range=&language=en-US&category_general=on",
