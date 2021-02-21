@@ -8,7 +8,7 @@ Differences from LibreWolf:
 - [Fission](https://wiki.mozilla.org/Project_Fission) (isolation) enabled
 - Disabled megabar
 - [Searx](https://searx.garudalinux.org/) & [Whoogle](https://search.garudalinux.org/) search engines added
-- [NoScript](https://addons.mozilla.org/en-US/firefox/addon/noscript/), [Canvasblocker])(https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/), [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) & [Tabliss](https://addons.mozilla.org/en-US/firefox/addon/tabliss/) addons added 
+- [NoScript](https://addons.mozilla.org/en-US/firefox/addon/noscript/), [Canvasblocker](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/), [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) & [Tabliss](https://addons.mozilla.org/en-US/firefox/addon/tabliss/) addons added 
 - Sweet theme added
 - Custom, dr460nized branding 🐉
 
