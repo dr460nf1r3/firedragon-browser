@@ -62,6 +62,7 @@
 
         "Extensions": {
             "Install": [
+                "https://addons.mozilla.org/firefox/downloads/file/3365502/sweet_dark-4.0-an+fx.xpi",
                 "https://addons.mozilla.org/firefox/downloads/file/3719054/ublock_origin-1.33.2-an+fx.xp",
                 "https://addons.mozilla.org/firefox/downloads/file/3711139/canvasblocker-1.5-an+fx.xpi",
                 "https://addons.mozilla.org/firefox/downloads/file/3727988/noscript_security_suite-11.2.3-an+fx.xpi",
