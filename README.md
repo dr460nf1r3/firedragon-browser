@@ -3,11 +3,15 @@
 Heavily borrowed from [ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) and [pyllyukko/user.js](https://github.com/pyllyukko/user.js). Not affiliated with either.
 
 Differences from LibreWolf:
-- Proton UI rework enabled
-- Fission (isolation) enabled
+- Built off Firefox Nightly instead of stable
+- [Proton UI rework](https://wiki.mozilla.org/Firefox/Proton) enabled
+- [Fission](https://wiki.mozilla.org/Project_Fission) (isolation) enabled
 - Disabled megabar
-- Searx & Whoogle search engines added
-- NoScript, Canvasblocker, Dark Reader & Tabliss addons added 
+- [Searx](https://searx.garudalinux.org/) & [Whoogle](https://search.garudalinux.org/) search engines added
+- [NoScript](https://addons.mozilla.org/en-US/firefox/addon/noscript/), [Canvasblocker])(https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/), [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) & [Tabliss](https://addons.mozilla.org/en-US/firefox/addon/tabliss/) addons added 
 - Sweet theme added
+- Custom, dr460nized branding 🐉
 
-Available daily binaries at [Chaotic-AUR](https://chaotic.cx)
+Daily, automated builds for Arch based distros available at [Chaotic-AUR](https://chaotic.cx). 
+
+<img src=https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/about.png/>
