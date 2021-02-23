@@ -12,6 +12,7 @@ Differences from LibreWolf:
 - [NoScript](https://addons.mozilla.org/en-US/firefox/addon/noscript/), [Canvasblocker](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/), [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) & [Tabliss](https://addons.mozilla.org/en-US/firefox/addon/tabliss/) addons added 
 - Sweet theme added
 - Custom, dr460nized branding 🐉
+- Icons by [SGS](https://github.com/sgse)
 
 Daily, automated builds for Arch based distros available at [Chaotic-AUR](https://chaotic.cx). 
 
