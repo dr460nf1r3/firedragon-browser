@@ -16,4 +16,5 @@ Differences from LibreWolf:
 
 Daily, automated builds for Arch based distros available at [Chaotic-AUR](https://chaotic.cx). 
 
+<img src=https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/home.png/>
 <img src=https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/about.png/>
