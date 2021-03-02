@@ -8,6 +8,7 @@
         "OverridePostUpdatePage": "",
         "DisableSystemAddonUpdate": true,
         "DisableFirefoxAccounts": true,
+        "DisableFormHistory": true,
         "DisableProfileImport": false,
         "DisableMasterPasswordCreation": true,
         "DisableFirefoxStudies": true,
@@ -21,7 +22,15 @@
           "ProviderURL": "",
           "Locked": false
         },
-
+        "EnableTrackingProtection": {
+            "Value": true,
+            "Locked": true,
+            "Cryptomining": true,
+            "Fingerprinting": true
+        },
+        "policies": {
+            "HardwareAcceleration": true
+            },
         "Bookmarks": [
               {
                 "Title": "Library",
