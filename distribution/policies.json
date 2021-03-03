@@ -36,31 +36,31 @@
                 "Title": "Library",
                 "URL": "chrome://browser/content/places/places.xul",
                 "Placement": "menu",
-                "Folder": "DragonWolf"
+                "Folder": "FireDragon"
               },
               {
-                "Title": "Restart DragonWolf",
+                "Title": "Restart FireDragon",
                 "URL": "about:restartrequired",
                 "Placement": "menu",
-                "Folder": "DragonWolf"
+                "Folder": "FireDragon"
               },
               {
                 "Title": "Advanced Preferences",
                 "URL": "about:config",
                 "Placement": "menu",
-                "Folder": "DragonWolf"
+                "Folder": "FireDragon"
               },
               {
                 "Title": "All about pages",
                 "URL": "about:about",
                 "Placement": "menu",
-                "Folder": "DragonWolf"
+                "Folder": "FireDragon"
               },
               {
-                "Title": "DragonWolf Profiles",
+                "Title": "FireDragon Profiles",
                 "URL": "about:profiles",
                 "Placement": "menu",
-                "Folder": "DragonWolf"
+                "Folder": "FireDragon"
               }
         ],
 
