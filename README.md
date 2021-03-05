@@ -13,6 +13,7 @@ Differences from LibreWolf:
 - Sweet theme added
 - Custom, dr460nized branding 🐉
 - Icons by [SGS](https://github.com/sgse)
+- Tabliss setup from the screenshot can be imported from tabliss.json
 
 Daily, automated builds for Arch based distros available at [Chaotic-AUR](https://chaotic.cx). 
 

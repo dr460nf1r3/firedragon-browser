@@ -90,7 +90,7 @@
         "SearchSuggestEnabled": true,
         "SearchEngines": {
             "PreventInstalls": false,
-            "Default": "Searx",
+            "Default": "DuckDuckGo",
             "Remove": ["Google", "Bing", "Amazon.com", "eBay", "Twitter"],
             "Add": [
                 {
@@ -110,8 +110,21 @@
                     "URLTemplate": "https://searx.garudalinux.org/?q={searchTerms}",
                     "PostData": "q={searchTerms}&time_range=&language=en-US&category_general=on",
                     "IconURL": "https://searx.garudalinux.org/favicon.ico"
+                },
+                {
+                    "Name": "DuckDuckGo Lite",
+                    "Description": "Minimal, ad-free version of DuckDuckGo",
+                    "Alias": "",
+                    "Method": "POST",
+                    "URLTemplate": "https://duckduckgo.com/lite/?q={searchTerms}",
+                    "PostData": "q={searchTerms}",
+                    "IconURL": "https://duckduckgo.com/favicon.ico"
                 }
             ]
+        },
+        "SupportMenu": {
+            "Title": "FireDragon support",
+            "URL": "https://forum.garudalinux.org/t/firedragon-librewolf-fork/5018/"
         }
     }
 }
