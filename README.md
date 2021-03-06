@@ -17,7 +17,8 @@ Differences from LibreWolf:
 - Icons by [SGS](https://gitlab.com/sgse)
 - Tabliss setup from the screenshot can be imported from tabliss.json
 
-Daily, automated builds for Arch based distros available at [Chaotic-AUR](https://chaotic.cx). 
+Daily, automated builds for Arch based distros available at [Chaotic-AUR](https://chaotic.cx).
+A firedragon-bin package is also available at [AUR](https://aur.archlinux.org/packages/firedragon-bin)
 
 <img src=https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/home.png/>
 <img src=https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/about.png/>
