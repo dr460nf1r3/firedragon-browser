@@ -90,20 +90,20 @@
         "SearchSuggestEnabled": true,
         "SearchEngines": {
             "PreventInstalls": false,
-            "Default": "DuckDuckGo",
+            "Default": "Whoogle@localhost",
             "Remove": ["Google", "Bing", "Amazon.com", "eBay", "Twitter"],
             "Add": [
                 {
-                    "Name": "Whoogle",
+                    "Name": "Whoogle@localhost",
                     "Description": "Minimal, ad-free version of Google search",
                     "Alias": "wg",
                     "Method": "POST",
-                    "URLTemplate": "https://search.garudalinux.org/?q={searchTerms}",
+                    "URLTemplate": "http://localhost:5000/?q={searchTerms}",
                     "PostData": "q={searchTerms}",
-                    "IconURL": "https://search.garudalinux.org/favicon.ico"
+                    "IconURL": "http://localhost:5000/favicon.ico"
                 },
                 {
-                    "Name": "Searx",
+                    "Name": "Searx@garuda",
                     "Description": "A privacy-respecting, hackable metasearch engine",
                     "Alias": "sx",
                     "Method": "POST",
