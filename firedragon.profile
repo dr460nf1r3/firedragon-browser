@@ -9,9 +9,9 @@ include globals.local
 noblacklist ${HOME}/.cache/mozilla
 noblacklist ${HOME}/.firedragon
 
-mkdir ${HOME}/.cache/mozilla/firedragon
+mkdir ${HOME}/.cache/firedragon
 mkdir ${HOME}/.firedragon
-whitelist ${HOME}/.cache/mozilla/firedragon
+whitelist ${HOME}/.cache/firedragon
 whitelist ${HOME}/.firedragon
 
 whitelist /usr/share/mozilla
