@@ -98,7 +98,7 @@
                     "Description": "Minimal, ad-free version of Google search",
                     "Alias": "wg",
                     "Method": "POST",
-                    "URLTemplate": "http://localhost:5000/?q={searchTerms}",
+                    "URLTemplate": "http://localhost:5000/search?q={searchTerms}",
                     "PostData": "q={searchTerms}",
                     "IconURL": "http://localhost:5000/favicon.ico"
                 },
