@@ -116,7 +116,7 @@
                     "Description": "A privacy-respecting, hackable metasearch engine",
                     "Alias": "sx",
                     "Method": "POST",
-                    "URLTemplate": "https://localhost:8888/?q={searchTerms}",
+                    "URLTemplate": "http://localhost:8888/?q={searchTerms}",
                     "PostData": "q={searchTerms}&time_range=&language=en-US&category_general=on",
                     "IconURL": "https://searx.garudalinux.org/favicon.ico"
                 },
