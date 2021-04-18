@@ -10,7 +10,7 @@ include firedragon-common.local
 ?BROWSER_ALLOW_DRM: ignore noexec ${HOME}
 
 # Uncomment the following line (or put it in your firedragon-common.local) to allow access to common programs/addons/plugins.
-include firedragon-common-addons.inc
+#include firedragon-common-addons.inc
 
 noblacklist ${HOME}/.pki
 noblacklist ${HOME}/.local/share/pki
