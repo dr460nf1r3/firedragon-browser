@@ -49,7 +49,7 @@ protocol unix,inet,inet6,netlink
 # The below seccomp configuration still permits chroot syscall. See https://github.com/netblue30/firejail/issues/2506 for possible workarounds.
 seccomp !chroot
 shell none
-# Disable tracelog, it breaks or causes major issues with many firedragon based browsers, see https://github.com/netblue30/firejail/issues/1930.
+# Disable tracelog, it breaks or causes major issues with many Firefox based browsers, see https://github.com/netblue30/firejail/issues/1930.
 #tracelog
 
 disable-mnt
