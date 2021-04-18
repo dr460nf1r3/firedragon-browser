@@ -10,7 +10,7 @@ include firedragon-common.local
 ?BROWSER_ALLOW_DRM: ignore noexec ${HOME}
 
 # Uncomment the following line (or put it in your firedragon-common.local) to allow access to common programs/addons/plugins.
-#include firedragon-common-addons.inc
+include firedragon-common-addons.profile
 
 noblacklist ${HOME}/.pki
 noblacklist ${HOME}/.local/share/pki
@@ -27,6 +27,7 @@ whitelist ${DOWNLOADS}
 whitelist ${HOME}/.pki
 whitelist ${HOME}/.local/share/pki
 include whitelist-common.inc
+include whitelist-runuser-common.inc
 include whitelist-var-common.inc
 
 apparmor
@@ -52,7 +53,13 @@ shell none
 #tracelog
 
 disable-mnt
-private-dev
+?BROWSER_DISABLE_U2F: private-dev
 # private-etc below works fine on most distributions. There are some problems on CentOS.
-#private-etc alternatives,asound.conf,ca-certificates,crypto-policies,dconf,fonts,group,gtk-2.0,gtk-3.0,hostname,hosts,ld.so.cache,localtime,machine-id,mailcap,mime.types,nsswitch.conf,pango,passwd,pki,pulse,resolv.conf,selinux,ssl,X11,xdg
+# Add it to your firefox-common.local if you want to enable it.
+#private-etc alternatives,asound.conf,ca-certificates,crypto-policies,dconf,fonts,group,gtk-2.0,gtk-3.0,hostname,hosts,ld.so.cache,ld.so.conf,ld.so.conf.d,ld.so.preload,localtime,machine-id,mailcap,mime.types,nsswitch.conf,pango,passwd,pki,pulse,resolv.conf,selinux,ssl,X11,xdg
 private-tmp
+
+# 'dbus-user none' breaks various desktop integration features like global menus, native notifications,
+# Gnome connector, KDE connect and power management on KDE Plasma.
+#dbus-user none
+#dbus-system none
