@@ -19,7 +19,6 @@ Differences from LibreWolf:
 - Will keep in sync with both Librewolfs & Plasmafox changes
 - Presets for both profile-sync-daemon (which Garuda ships by default) & Firejail available
 - Builds available at [Chaotic-AUR](https://chaotic.cx)
-- A binary package available at [AUR](https://aur.archlinux.org/packages/firedragon-stable-bin)
 - Icons & artwork by [SGS](https://gitlab.com/sgse)
 - Tabliss setup from the screenshot can be imported from tabliss.json
 
@@ -30,7 +29,6 @@ Differences of the Nightly build:
 - [Fission](https://wiki.mozilla.org/Project_Fission) (isolation) enabled
 - No patches available for Nightly means no KDE integration & appmenu support
 - Will keep in sync with both Librewolfs & [vnepogodins](https://aur.archlinux.org/account/vnepogodin) changes
-- Binary package available at [AUR](https://aur.archlinux.org/packages/firedragon-bin)
 
 Builds for Arch based distros available at [Chaotic-AUR](https://chaotic.cx).
 
