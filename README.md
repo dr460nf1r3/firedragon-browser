@@ -17,9 +17,10 @@ Differences from LibreWolf:
 - Sweet theme added
 - Custom, dr460nized branding :dragon:
 - Will keep in sync with both Librewolfs & Plasmafox changes
+- Support for own settings using ~/.firedragon/firedragon.overrides.cfg - use this to override default settings shipped in /usr/lib/firedragon/firedragon.cfg 
 - Presets for both profile-sync-daemon (which Garuda ships by default) & Firejail available
 - Builds available at [Chaotic-AUR](https://chaotic.cx)
-- Icons & artwork by [SGS](https://gitlab.com/sgse)
+- Icons & artwork by [SGS](https://gitlab.com/sgse) & [zoeronen](https://gitlab.com/zoeronen)
 - Tabliss setup from the screenshot can be imported from tabliss.json
 
 Differences of the Nightly build:
