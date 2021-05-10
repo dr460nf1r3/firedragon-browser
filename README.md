@@ -1,6 +1,12 @@
 # FireDragon settings
 
-Heavily borrowed from [ghacks-user.js](https://github.com/ghacksuserjs/ghacks-user.js) and [pyllyukko/user.js](https://github.com/pyllyukko/user.js). Not affiliated with either.
+I encourage users to find **their own setup** and to use our default configuration as something to build on top of.
+- -> `~/.firedragon/firedragon.overrides.cfg`
+
+This repository benefits from the knowledge and research provided by [arkenfox](https://github.com/arkenfox), their documentation was vital to this revamp, so special thanks to their project.
+We do not use arkenfox's user.js but we try to keep up with it, and we also consider it a great resource for users who want to find their own setup.
+
+Some of the older prefs in this project are taken from [pyllyukko](https://github.com/pyllyukko/user.js/) and many more were investigated on [bugzilla](https://bugzilla.mozilla.org/home).
 
 Differences from LibreWolf:
 
@@ -17,7 +23,6 @@ Differences from LibreWolf:
 - Sweet theme added
 - Custom, dr460nized branding :dragon:
 - Will keep in sync with both Librewolfs & Plasmafox changes
-- Support for own settings using ~/.firedragon/firedragon.overrides.cfg - use this to override default settings shipped in /usr/lib/firedragon/firedragon.cfg 
 - Presets for both profile-sync-daemon (which Garuda ships by default) & Firejail available
 - Builds available at [Chaotic-AUR](https://chaotic.cx)
 - Icons & artwork by [SGS](https://gitlab.com/sgse) & [zoeronen](https://gitlab.com/zoeronen)
@@ -27,7 +32,6 @@ Differences of the Nightly build:
 
 - Built off Firefox Nightly instead of stable
 - [Proton UI rework](https://wiki.mozilla.org/Firefox/Proton) enabled
-- [Fission](https://wiki.mozilla.org/Project_Fission) (isolation) enabled
 - No patches available for Nightly means no KDE integration & appmenu support
 - Will keep in sync with both Librewolfs & [vnepogodins](https://aur.archlinux.org/account/vnepogodin) changes
 
@@ -39,7 +43,7 @@ Builds for Arch based distros available at [Chaotic-AUR](https://chaotic.cx).
 
 Credits go to Mozilla, Arch Linux, and:
 
-- The Librewolf project
+- The [Librewolf](https://librewolf-community.gitlab.io/) project
 - torvic9 & his [Plasmafox](https://github.com/torvic9/plasmafox)
 - [vnepogodin](https://aur.archlinux.org/account/vnepogodin)
 - [SGS](https://gitlab.com/sgse)
