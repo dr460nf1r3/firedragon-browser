@@ -18,9 +18,9 @@
         "DisableSetDesktopBackground": false,
         "DisableDeveloperTools": false,
         "DNSOverHTTPS": {
-          "Enabled": true,
-          "ProviderURL": "https://dns.quad9.net/dns-query",
-          "Locked": false
+            "Enabled": true,
+            "ProviderURL": "https://dns.quad9.net/dns-query",
+            "Locked": false
         },
         "EnableTrackingProtection": {
             "Value": true,
@@ -65,8 +65,13 @@
         ],
 
         "WebsiteFilter": {
-            "Block": ["https://localhost/*"],
-            "Exceptions": ["https://localhost/*"]
+            "Block": [
+                "https://localhost/*"
+            ],
+            "Exceptions": [
+                "https://localhost/*"
+            ]
+
         },
 
         "Extensions": {
@@ -75,7 +80,7 @@
                 "https://addons.cdn.mozilla.net/user-media/addons/607454/ublock_origin-1.35.2-an+fx.xpi",
                 "https://addons.mozilla.org/firefox/downloads/file/3711139/canvasblocker-1.5-an+fx.xpi",
                 "https://addons.mozilla.org/firefox/downloads/file/3748919/clearurls-1.21.0-an+fx.xpi",
-                "https://addons.mozilla.org/firefox/downloads/file/3712931/dark_reader-4.9.29-an+fx.xpi",
+                "https://addons.mozilla.org/firefox/downloads/file/3712931/dark_reader-4.9.32-an+fx.xpi",
                 "https://addons.mozilla.org/firefox/downloads/file/3716637/tabliss_new_tab-2.1.0-fx.xpi"
             ],
             "Uninstall": [
@@ -91,7 +96,13 @@
         "SearchEngines": {
             "PreventInstalls": false,
             "Default": "Garuda searX",
-            "Remove": ["Google", "Bing", "Amazon.com", "eBay", "Twitter"],
+            "Remove": [
+                "Google",
+                "Bing",
+                "Amazon.com",
+                "eBay",
+                "Twitter"
+            ],
             "Add": [
                 {
                     "Name": "Garuda searX",
