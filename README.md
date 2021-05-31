@@ -18,14 +18,14 @@ Differences from LibreWolf:
 - Disabled megabar
 - [Searx](https://searx.garudalinux.org/) & [Whoogle](https://search.garudalinux.org/) search engines added, with the possibility to run locally with fitting optdepends installed
 - The default search engine is Garudas [searX instance](https://searx.garudalinux.org)
-- [Canvasblocker](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/), [Dark Reader](https:/]/addons.mozilla.org/en-US/firefox/addon/darkreader/), [ClearURLs](https://addons.mozilla.org/de/firefox/addon/clearurls/) & [Tabliss](https://addons.mozilla.org/en-US/firefox/addon/tabliss/) addons added 
+- [Canvasblocker](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/), [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/), [ClearURLs](https://addons.mozilla.org/de/firefox/addon/clearurls/) & [Tabliss](https://addons.mozilla.org/en-US/firefox/addon/tabliss/) addons added 
 - DNS-over-HTTPS using [Quad9](https://quad9.net) servers to unblock censorship by the internet provider
 - Sweet theme added
 - Custom, dr460nized branding :dragon:
 - Will keep in sync with both Librewolfs & Plasmafox changes
 - Presets for both profile-sync-daemon (which Garuda ships by default) & Firejail available
 - Builds available at [Chaotic-AUR](https://chaotic.cx)
-- Icons & artwork by [SGS](https://gitlab.com/sgse) & [zoeronen](https://gitlab.com/zoeronen)
+- Icons & artwork by [SGS](https://gitlab.com/SGSm) & [zoeronen](https://gitlab.com/zoeronen)
 - Tabliss setup from the screenshot can be imported from tabliss.json
 
 Differences of the Nightly build:
@@ -35,10 +35,10 @@ Differences of the Nightly build:
 - No patches available for Nightly means no KDE integration & appmenu support
 - Will keep in sync with both Librewolfs & [vnepogodins](https://aur.archlinux.org/account/vnepogodin) changes
 
-Builds for Arch based distros available at [Chaotic-AUR](https://chaotic.cx).
+Builds for Arch based distros available at [Chaotic-AUR](https://aur.chaotic.cx).
 
-<img src=https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/home.png/>
-<img src=https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/about.png/>
+<img src="https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/home.png/" alt="FireDragon Screenshot">
+<img src="https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/about.png/" alt="About FireDragon" >
 
 
 Credits go to Mozilla, Arch Linux, and:
@@ -46,4 +46,4 @@ Credits go to Mozilla, Arch Linux, and:
 - The [Librewolf](https://librewolf-community.gitlab.io/) project
 - torvic9 & his [Plasmafox](https://github.com/torvic9/plasmafox)
 - [vnepogodin](https://aur.archlinux.org/account/vnepogodin)
-- [SGS](https://gitlab.com/sgse)
+- [SGS](https://gitlab.com/SGSm)
