@@ -1,7 +1,7 @@
 # FireDragon settings
 
 I encourage users to find **their own setup** and to use our default configuration as something to build on top of.
-- -> `~/.firedragon/firedragon.overrides.cfg`
+-> `~/.firedragon/firedragon.overrides.cfg`
 
 This repository benefits from the knowledge and research provided by [arkenfox](https://github.com/arkenfox), their documentation was vital to this revamp, so special thanks to their project.
 We do not use arkenfox's user.js but we try to keep up with it, and we also consider it a great resource for users who want to find their own setup.
