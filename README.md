@@ -11,11 +11,9 @@ Some of the older prefs in this project are taken from [pyllyukko](https://githu
 Differences from LibreWolf:
 
 - Enhanced KDE integration due to OpenSUSE patches (also using kfiredragonhelper)
-- Uses system own libraries wherever possible
-- [Proton UI rework](https://wiki.mozilla.org/Firefox/Proton) enabled
+- Gentoo patches for using more system libraries
 - Compatible with Wayland, read the pinned post 8 for instruction
 - Enabled [PGO](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Building_with_Profile-Guided_Optimization)
-- Disabled megabar
 - [Searx](https://searx.garudalinux.org/) & [Whoogle](https://search.garudalinux.org/) search engines added, with the possibility to run locally with fitting optdepends installed
 - The default search engine is Garudas [searX instance](https://searx.garudalinux.org)
 - [Canvasblocker](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/), [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/), [ClearURLs](https://addons.mozilla.org/de/firefox/addon/clearurls/) & [Tabliss](https://addons.mozilla.org/en-US/firefox/addon/tabliss/) addons added 
@@ -23,7 +21,7 @@ Differences from LibreWolf:
 - Sweet theme added
 - Custom, dr460nized branding :dragon:
 - Will keep in sync with both Librewolfs & Plasmafox changes
-- Presets for both profile-sync-daemon (which Garuda ships by default) & Firejail available
+- Presets for both profile-sync-daemon (which Garuda Linux ships by default) & Firejail available
 - Builds available at [Chaotic-AUR](https://chaotic.cx)
 - Icons & artwork by [SGS](https://gitlab.com/SGSm) & [zoeronen](https://gitlab.com/zoeronen)
 - Tabliss setup from the screenshot can be imported from tabliss.json
@@ -31,7 +29,6 @@ Differences from LibreWolf:
 Differences of the Nightly build:
 
 - Built off Firefox Nightly instead of stable
-- [Proton UI rework](https://wiki.mozilla.org/Firefox/Proton) enabled
 - No patches available for Nightly means no KDE integration & appmenu support
 - Will keep in sync with both Librewolfs & [vnepogodins](https://aur.archlinux.org/account/vnepogodin) changes
 
@@ -46,4 +43,4 @@ Credits go to Mozilla, Arch Linux, and:
 - The [Librewolf](https://librewolf-community.gitlab.io/) project
 - torvic9 & his [Plasmafox](https://github.com/torvic9/plasmafox)
 - [vnepogodin](https://aur.archlinux.org/account/vnepogodin)
-- [SGS](https://gitlab.com/SGSm)
+- [SGS](https://gitlab.com/SGSm) & [zoeronen](https://gitlab.com/zoeronen
