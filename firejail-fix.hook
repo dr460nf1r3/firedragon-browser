@@ -1,0 +1,10 @@
+[Trigger]
+Type = Package
+Operation = Install
+Operation = Upgrade
+Target = firejail-noapparmor-git
+
+[Action]
+Description = Enabling appmenu for Firedragon..
+When = PostTransaction
+Exec = /usr/bin/sed -i /etc/firejail/firefox-common.profile -e 's,dbus-system none,#dbus-system none,'

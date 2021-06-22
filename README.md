@@ -25,6 +25,7 @@ Differences from LibreWolf:
 - Builds available at [Chaotic-AUR](https://chaotic.cx)
 - Icons & artwork by [SGS](https://gitlab.com/SGSm) & [zoeronen](https://gitlab.com/zoeronen)
 - Tabliss setup from the screenshot can be imported from tabliss.json
+- To retain appmenu functionalities copy the firejail-fix.hook from this repo to /usr/share/libalpm/hooks/ (disabled by default)
 
 Differences of the Nightly build:
 
