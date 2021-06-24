@@ -12,7 +12,7 @@ Differences from LibreWolf:
 
 - Enhanced KDE integration due to OpenSUSE patches (also using kfiredragonhelper)
 - Gentoo patches for using more system libraries
-- Compatible with Wayland, read the pinned post 8 for instruction
+- Compatible with Wayland, set MOZ_ENABLE_WAYLAND=1 as variable to enable using it
 - Enabled [PGO](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Building_with_Profile-Guided_Optimization)
 - [Searx](https://searx.garudalinux.org/) & [Whoogle](https://search.garudalinux.org/) search engines added, with the possibility to run locally with fitting optdepends installed
 - The default search engine is Garudas [searX instance](https://searx.garudalinux.org)
