@@ -1,6 +1,6 @@
 # FireDragon settings
 
-I encourage users to find **their own setup** and to use our default configuration as something to build on top of.
+I encourage users to find **their own setup** and to use our default configuration as something to build on top of using:
 -> `~/.firedragon/firedragon.overrides.cfg`
 
 This repository benefits from the knowledge and research provided by [arkenfox](https://github.com/arkenfox), their documentation was vital to this revamp, so special thanks to their project.
@@ -13,11 +13,10 @@ Differences from LibreWolf:
 - Enhanced KDE integration due to OpenSUSE patches (also using kfiredragonhelper)
 - Gentoo patches for using more system libraries
 - Compatible with Wayland, set MOZ_ENABLE_WAYLAND=1 as variable to enable using it
-- Enabled [PGO](https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/Building_with_Profile-Guided_Optimization)
 - [Searx](https://searx.garudalinux.org/) & [Whoogle](https://search.garudalinux.org/) search engines added, with the possibility to run locally with fitting optdepends installed
 - The default search engine is Garudas [searX instance](https://searx.garudalinux.org)
 - [Canvasblocker](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/), [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/), [ClearURLs](https://addons.mozilla.org/de/firefox/addon/clearurls/) & [Tabliss](https://addons.mozilla.org/en-US/firefox/addon/tabliss/) addons added
-- DNS-over-HTTPS using [Quad9](https://quad9.net) servers to unblock censorship by the internet provider
+- DNS-over-HTTPS using [Quad9](https://quad9.net) servers to unblock censorship by internet providers
 - Sweet theme added
 - Custom, dr460nized branding :dragon:
 - Will keep in sync with both Librewolfs & Plasmafox changes
@@ -42,6 +41,6 @@ Builds for Arch based distros available at [Chaotic-AUR](https://aur.chaotic.cx)
 Credits go to Mozilla, Arch Linux, and:
 
 - The [Librewolf](https://librewolf-community.gitlab.io/) project
-- torvic9 & his [Plasmafox](https://github.com/torvic9/plasmafox)
+- torvic9 & his retired [Plasmafox](https://github.com/torvic9/plasmafox)
 - [vnepogodin](https://aur.archlinux.org/account/vnepogodin)
-- [SGS](https://gitlab.com/SGSm) & [zoeronen](https://gitlab.com/zoeronen)
+- [SGS](https://gitlab.com/SGSm) & [zoeronen](https://gitlab.com/zoeronen
