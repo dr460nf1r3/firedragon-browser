@@ -43,4 +43,4 @@ Credits go to Mozilla, Arch Linux, and:
 - The [Librewolf](https://librewolf-community.gitlab.io/) project
 - torvic9 & his retired [Plasmafox](https://github.com/torvic9/plasmafox)
 - [vnepogodin](https://aur.archlinux.org/account/vnepogodin)
-- [SGS](https://gitlab.com/SGSm) & [zoeronen](https://gitlab.com/zoeronen
+- [SGS](https://gitlab.com/SGSm) & [zoeronen](https://gitlab.com/zoeronen)
