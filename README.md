@@ -15,15 +15,14 @@ Differences from LibreWolf:
 - Compatible with Wayland, set MOZ_ENABLE_WAYLAND=1 as variable to enable using it
 - [Searx](https://searx.garudalinux.org/) & [Whoogle](https://search.garudalinux.org/) search engines added, with the possibility to run locally with fitting optdepends installed
 - The default search engine is Garudas [searX instance](https://searx.garudalinux.org)
-- [Canvasblocker](https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/), [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/), [ClearURLs](https://addons.mozilla.org/de/firefox/addon/clearurls/) & [Tabliss](https://addons.mozilla.org/en-US/firefox/addon/tabliss/) addons added
-- DNS-over-HTTPS using [Quad9](https://quad9.net) servers to unblock censorship by internet providers
+- [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) & [ClearURLs](https://addons.mozilla.org/de/firefox/addon/clearurls/) added
 - Sweet theme added
 - Custom, dr460nized branding :dragon:
 - Will keep in sync with both Librewolfs & Plasmafox changes
 - Presets for both profile-sync-daemon (which Garuda Linux ships by default) & Firejail available
 - Builds available at [Chaotic-AUR](https://chaotic.cx)
 - Icons & artwork by [SGS](https://gitlab.com/SGSm) & [zoeronen](https://gitlab.com/zoeronen)
-- Tabliss setup from the screenshot can be imported from tabliss.json
+- Tabliss setup from the screenshot can be imported from tabliss.json (needs Tabliss addon installed)
 - To retain appmenu functionalities copy the firejail-fix.hook from this repo to /usr/share/libalpm/hooks/ (disabled by default)
 
 Differences of the Nightly build:
