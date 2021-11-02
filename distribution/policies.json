@@ -72,7 +72,7 @@
         "Extensions": {
             "Install": [
                 "https://addons.mozilla.org/firefox/downloads/file/3365502/sweet_dark-4.0-an+fx.xpi",
-                "https://addons.mozilla.org/firefox/downloads/file/3798731/ublock_origin-1.38.2-an+fx.xpi",
+                "https://addons.mozilla.org/firefox/downloads/file/3798731/ublock_origin-1.38.6-an+fx.xpi",
                 "https://addons.mozilla.org/firefox/downloads/file/3748919/clearurls-1.21.0-an+fx.xpi",
                 "https://addons.mozilla.org/firefox/downloads/file/3783471/dark_reader-4.9.39-an+fx.xpi"
             ],
