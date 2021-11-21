@@ -18,7 +18,7 @@ Differences from LibreWolf:
 - [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) & [ClearURLs](https://addons.mozilla.org/de/firefox/addon/clearurls/) added
 - Sweet theme added
 - Custom, dr460nized branding :dragon:
-- Will keep in sync with both Librewolfs changes
+- Will keep in sync with Librewolfs changes
 - Presets for both profile-sync-daemon (which Garuda Linux ships by default) & Firejail available
 - Builds available at [Chaotic-AUR](https://chaotic.cx)
 - Icons & artwork by [SGS](https://gitlab.com/SGSm) & [zoeronen](https://gitlab.com/zoeronen)
