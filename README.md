@@ -19,6 +19,7 @@ Differences from LibreWolf:
 - Sweet theme added
 - Custom, dr460nized branding :dragon:
 - Will keep in sync with Librewolfs changes
+- Firefox accounts enabled using a custom selfhosted syncserver (ffsync.garudalinux.org)
 - Presets for both profile-sync-daemon (which Garuda Linux ships by default) & Firejail available
 - Builds available at [Chaotic-AUR](https://chaotic.cx)
 - Icons & artwork by [SGS](https://gitlab.com/SGSm) & [zoeronen](https://gitlab.com/zoeronen)
