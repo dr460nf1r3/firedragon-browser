@@ -7,7 +7,7 @@
         "OverrideFirstRunPage": "",
         "OverridePostUpdatePage": "",
         "DisableSystemAddonUpdate": true,
-        "DisableFirefoxAccounts": true,
+        "DisableFirefoxAccounts": false,
         "DisableFormHistory": true,
         "DisableProfileImport": false,
         "DisableMasterPasswordCreation": true,
