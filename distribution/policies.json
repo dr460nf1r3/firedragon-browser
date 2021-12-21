@@ -103,13 +103,22 @@
                     "Alias": "sx",
                     "Method": "POST",
                     "URLTemplate": "https://searx.garudalinux.org/?q={searchTerms}",
-                    "PostData": "q={searchTerms}&time_range=&language=en-US&category_general=on",
+                    "PostData": "q={searchTerms}",
                     "IconURL": "https://searx.garudalinux.org/favicon.ico"
+                },
+                {
+                    "Name": "Garuda Whoogle",
+                    "Description": "Minimal, ad-free version of Google search",
+                    "Alias": "wg",
+                    "Method": "POST",
+                    "URLTemplate": "https://searx.garudalinux.org/?q={searchTerms}",
+                    "PostData": "q={searchTerms}",
+                    "IconURL": "https://search.garudalinux.org/favicon.ico"
                 },
                 {
                     "Name": "Whoogle (local - needs 'whoogle' installed)",
                     "Description": "Minimal, ad-free version of Google search",
-                    "Alias": "wg",
+                    "Alias": "wgl",
                     "Method": "POST",
                     "URLTemplate": "http://localhost:5000/search?q={searchTerms}",
                     "PostData": "q={searchTerms}",
@@ -118,16 +127,16 @@
                 {
                     "Name": "Searx (local - needs 'searx' installed)",
                     "Description": "A privacy-respecting, hackable metasearch engine",
-                    "Alias": "sx",
+                    "Alias": "sxl",
                     "Method": "POST",
                     "URLTemplate": "http://localhost:8888/?q={searchTerms}",
-                    "PostData": "q={searchTerms}&time_range=&language=en-US&category_general=on",
+                    "PostData": "q={searchTerms}",
                     "IconURL": "https://searx.garudalinux.org/favicon.ico"
                 },
                 {
                     "Name": "DuckDuckGo Lite",
                     "Description": "Minimal, ad-free version of DuckDuckGo",
-                    "Alias": "",
+                    "Alias": "ddg",
                     "Method": "POST",
                     "URLTemplate": "https://duckduckgo.com/lite/?q={searchTerms}",
                     "PostData": "q={searchTerms}",
