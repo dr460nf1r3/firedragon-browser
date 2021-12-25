@@ -72,7 +72,7 @@
         "Extensions": {
             "Install": [
                 "https://addons.mozilla.org/firefox/downloads/file/3365502/sweet_dark-4.0-an+fx.xpi",
-                "https://addons.mozilla.org/firefox/downloads/file/3798731/ublock_origin-1.39.2-an+fx.xpi",
+                "https://addons.mozilla.org/firefox/downloads/file/3798731/ublock_origin-1.40.0-an+fx.xpi",
                 "https://addons.mozilla.org/firefox/downloads/file/3748919/clearurls-1.21.0-an+fx.xpi",
                 "https://addons.mozilla.org/firefox/downloads/file/3783471/dark_reader-4.9.43-an+fx.xpi"
             ],
@@ -111,9 +111,9 @@
                     "Description": "Minimal, ad-free version of Google search",
                     "Alias": "wg",
                     "Method": "POST",
-                    "URLTemplate": "https://searx.garudalinux.org/?q={searchTerms}",
+                    "URLTemplate": "https://search.garudalinux.org/?q={searchTerms}",
                     "PostData": "q={searchTerms}",
-                    "IconURL": "https://search.garudalinux.org/favicon.ico"
+                    "IconURL": "https://raw.githubusercontent.com/benbusby/whoogle-search/main/app/static/img/favicon.ico"
                 },
                 {
                     "Name": "Whoogle (local - needs 'whoogle' installed)",
@@ -122,7 +122,7 @@
                     "Method": "POST",
                     "URLTemplate": "http://localhost:5000/search?q={searchTerms}",
                     "PostData": "q={searchTerms}",
-                    "IconURL": "http://localhost:5000/favicon.ico"
+                    "IconURL": "https://raw.githubusercontent.com/benbusby/whoogle-search/main/app/static/img/favicon.ico"
                 },
                 {
                     "Name": "Searx (local - needs 'searx' installed)",
