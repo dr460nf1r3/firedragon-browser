@@ -44,7 +44,6 @@
                 "twitter@search.mozilla.org"
             ]
         },
-        "SearchSuggestEnabled": false,
         "SearchEngines": {
             "PreventInstalls": false,
             "Default": "Garuda Whoogle",
@@ -113,7 +112,7 @@
         },
         "SupportMenu": {
             "Title": "FireDragon support",
-            "URL": "https://forum.garudalinux.org/t/firedragon-librewolf-fork/5018/"
+            "URL": "https://forum.garudalinux.org/c/issues-assistance/firedragon-browser-support/47"
         }
     }
 }
