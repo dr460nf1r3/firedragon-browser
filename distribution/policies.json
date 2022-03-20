@@ -1,6 +1,4 @@
 {
-    "__COMMENT__ More Information": "https://github.com/mozilla/policy-templates/blob/master/README.md",
-
     "policies": {
         "DisableProfileImport": false,
         "DisableFirefoxStudies": true,
@@ -27,7 +25,7 @@
             "Install": [
                 "https://addons.mozilla.org/firefox/downloads/file/3365502/sweet_dark-4.0-an+fx.xpi",
                 "https://addons.mozilla.org/firefox/downloads/file/3798731/ublock_origin-1.41.8-an+fx.xpi",
-                "https://addons.mozilla.org/firefox/downloads/file/3783471/dark_reader-4.9.45-an+fx.xpi"
+                "https://addons.mozilla.org/firefox/downloads/file/3783471/dark_reader-4.9.47-an+fx.xpi"
             ],
             "Uninstall": [
                 "google@search.mozilla.org",
