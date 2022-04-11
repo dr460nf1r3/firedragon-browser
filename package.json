@@ -1,0 +1,11 @@
+{
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "prettier": "^2.6.2",
+    "shellcheck": "^1.1.0"
+  },
+  "scripts": {
+    "lint": "prettier --check .",
+    "prettify": "prettier --write ."
+  }
+}

@@ -25,7 +25,7 @@ Differences from LibreWolf:
 - Icons & artwork by [SGS](https://gitlab.com/SGSm) & [zoeronen](https://gitlab.com/zoeronen)
 - Tabliss setup from the screenshot can be imported from `tabliss.json` (needs Tabliss addon installed)
 - To retain appmenu functionalities copy the `firejail-fix.hook` from this repo to `/usr/share/libalpm/hooks/` (disabled by default)
-- Supporting the easy installation of [Firefox-UI-Fix](https://github.com/black7375/Firefox-UI-Fix#installation-guide), easily get back Photon UI or enhance the new Proton UI. 
+- Supporting the easy installation of [Firefox-UI-Fix](https://github.com/black7375/Firefox-UI-Fix#installation-guide), easily get back Photon UI or enhance the new Proton UI.
 
 Differences of the Nightly build:
 
@@ -37,7 +37,6 @@ Builds for Arch based distros available at [Chaotic-AUR](https://aur.chaotic.cx)
 
 <img src="https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/home.png/" alt="FireDragon Screenshot">
 <img src="https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/about.png/" alt="About FireDragon" >
-
 
 Credits go to Mozilla, Arch Linux, and:
 
