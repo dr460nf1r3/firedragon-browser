@@ -20,8 +20,8 @@
     "Extensions": {
       "Install": [
         "https://addons.mozilla.org/firefox/downloads/file/3365502/sweet_dark-4.0-an+fx.xpi",
-        "https://addons.mozilla.org/firefox/downloads/file/3798731/ublock_origin-1.42.4-an+fx.xpi",
-        "https://addons.mozilla.org/firefox/downloads/file/3783471/dark_reader-4.9.47-an+fx.xpi"
+        "https://addons.mozilla.org/firefox/downloads/file/3933192/ublock_origin-1.42.4-an+fx.xpi",
+        "https://addons.mozilla.org/firefox/downloads/file/3938065/dark_reader-4.9.50-an+fx.xpi"
       ],
       "Uninstall": [
         "google@search.mozilla.org",
