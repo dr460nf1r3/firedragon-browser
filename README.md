@@ -14,7 +14,7 @@ Differences from LibreWolf:
 - Gentoo patches for using more system libraries
 - Compatible with Wayland, set `MOZ_ENABLE_WAYLAND=1` as environment variable to enable using it
 - [Searx](https://searx.garudalinux.org/) & [Whoogle](https://search.garudalinux.org/) search engines added, with the possibility to run locally with fitting optdepends installed
-- The default search engine is Garudas [Whoogle instance](https://search.garudalinux.org)
+- The default search engine is Garudas [Searx instance](https://searx.garudalinux.org)
 - [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/) & [ClearURLs](https://addons.mozilla.org/de/firefox/addon/clearurls/) added
 - Sweet theme added
 - Custom, dr460nized branding :dragon:
@@ -26,12 +26,6 @@ Differences from LibreWolf:
 - Tabliss setup from the screenshot can be imported from `tabliss.json` (needs Tabliss addon installed)
 - To retain appmenu functionalities copy the `firejail-fix.hook` from this repo to `/usr/share/libalpm/hooks/` (disabled by default)
 - Supporting the easy installation of [Firefox-UI-Fix](https://github.com/black7375/Firefox-UI-Fix#installation-guide), easily get back Photon UI or enhance the new Proton UI.
-
-Differences of the Nightly build:
-
-- Built off Firefox Nightly instead of stable
-- No patches available for Nightly means no KDE integration & appmenu support
-- Will keep in sync with both Librewolfs & [vnepogodins](https://aur.archlinux.org/account/vnepogodin) changes
 
 Builds for Arch based distros available at [Chaotic-AUR](https://aur.chaotic.cx).
 
