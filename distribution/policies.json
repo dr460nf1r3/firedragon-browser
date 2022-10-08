@@ -24,7 +24,6 @@
         "https://addons.mozilla.org/firefox/downloads/file/3938065/dark_reader-4.9.51-an+fx.xpi"
       ],
       "Uninstall": [
-        "google@search.mozilla.org",
         "bing@search.mozilla.org",
         "amazondotcom@search.mozilla.org",
         "ebay@search.mozilla.org",
@@ -34,7 +33,7 @@
     "SearchEngines": {
       "PreventInstalls": false,
       "Default": "Garuda searX",
-      "Remove": ["Google", "Bing", "Amazon.com", "eBay", "Twitter"],
+      "Remove": ["Bing", "Amazon.com", "eBay", "Twitter"],
       "Add": [
         {
           "Name": "Garuda searX",
