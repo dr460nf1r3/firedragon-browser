@@ -26,7 +26,7 @@ Differences from LibreWolf:
 - To retain app menu functionalities copy the `firejail-fix.hook` from this repo to `/usr/share/libalpm/hooks/` (disabled by default)
 - Supporting the easy installation of [Firefox-UI-Fix](https://github.com/black7375/Firefox-UI-Fix#installation-guide), easily get back Photon UI or enhance the new Proton UI.
 
-Builds for Arch-based distros are available at [Chaotic-AUR](https://aur.chaotic.cx)(https://aur.chaotic.cx).
+Builds for Arch-based distros are available at [Chaotic-AUR](https://aur.chaotic.cx).
 
 <img src="https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/home.png/" alt="FireDragon Screenshot">
 <img src="https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/about.png/" alt="About FireDragon" >
