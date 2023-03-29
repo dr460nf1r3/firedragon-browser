@@ -37,4 +37,4 @@ Credits go to Mozilla, Arch Linux, and:
 - torvic9 & his retired [Plasmafox](https://github.com/torvic9/plasmafox)
 - [vnepogodin](https://aur.archlinux.org/account/vnepogodin)
 - [ptr1337](https://aur.archlinux.org/account/ptr1337)
-- [SGS](https://gitlab.com/SGSm) & [zoeronen](https://gitlab.com/zoeronen)
+- [SGS](https://gitlab.com/SGSm) & [zoeronen](https://gitlab.com/zoeruda)
