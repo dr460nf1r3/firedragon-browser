@@ -21,7 +21,7 @@ Differences from LibreWolf:
 - Firefox accounts are enabled using a custom self-hosted sync server (`ffsync.garudalinux.org`)
 - Presets for both `profile-sync-daemon` (which Garuda Linux ships by default) & `Firejail` are available
 - Builds available at [Chaotic-AUR](https://chaotic.cx)
-- Icons & artwork by [SGS](https://gitlab.com/SGSm) & [zoeronen](https://gitlab.com/zoeronen)
+- Icons & artwork by [SGS](https://gitlab.com/SGSm) & [zoeruda](https://gitlab.com/zoeruda)
 - The Tabliss setup from the screenshot can be imported from `tabliss.json` (needs Tabliss addon installed)
 - To retain app menu functionalities copy the `firejail-fix.hook` from this repo to `/usr/share/libalpm/hooks/` (disabled by default)
 - Supporting the easy installation of [Firefox-UI-Fix](https://github.com/black7375/Firefox-UI-Fix#installation-guide), easily get back Photon UI or enhance the new Proton UI.
