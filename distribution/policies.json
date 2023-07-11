@@ -23,8 +23,8 @@
     "Extensions": {
       "Install": [
         "https://addons.mozilla.org/firefox/downloads/file/3365502/sweet_dark-4.0.xpi",
-        "https://addons.mozilla.org/firefox/downloads/file/4095037/darkreader-4.9.63.xpi",
-        "https://addons.mozilla.org/firefox/downloads/file/4103048/ublock_origin-1.49.2.xpi"
+        "https://addons.mozilla.org/firefox/downloads/file/4128489/darkreader-4.9.64.xpi",
+        "https://addons.mozilla.org/firefox/downloads/file/4121906/ublock_origin-1.50.0.xpi"
       ],
       "Uninstall": [
         "bing@search.mozilla.org",
