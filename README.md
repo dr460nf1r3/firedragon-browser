@@ -1,6 +1,6 @@
 # FireDragon settings
 
-I encourage users to find **their own setup** and to use our default configuration as something to build on top of using:
+We encourage users to find **their own setup** and to use our default configuration as something to build on top of using:
 -> `~/.firedragon/firedragon.overrides.cfg`
 
 This repository benefits from the knowledge and research provided by [arkenfox](https://github.com/arkenfox), their documentation was vital to this revamp, so special thanks to their project.
@@ -10,7 +10,6 @@ Some of the older prefs in this project are taken from [pyllyukko](https://githu
 
 Differences from LibreWolf:
 
-- Enhanced KDE integration due to OpenSUSE patches
 - Compatible with Wayland, set `MOZ_ENABLE_WAYLAND=1` as an environment variable to enable using it
 - [Searx](https://searx.garudalinux.org/) & [Whoogle](https://search.garudalinux.org/) search engines added, with the possibility to run locally with fitting opt-depends installed
 - The default search engine is Garudas [Searx instance](https://searx.garudalinux.org)
@@ -24,10 +23,8 @@ Differences from LibreWolf:
 - NixOS builds available at [Chaotic-Nyx](https://github.com/chaotic-aur/nyx)
 - Icons & artwork by [SGS](https://gitlab.com/SGSm) & [zoeruda](https://gitlab.com/zoeruda)
 - The Tabliss setup from the screenshot can be imported from `tabliss.json` (needs Tabliss addon installed)
-- To retain app menu functionalities copy the `firejail-fix.hook` from this repo to `/usr/share/libalpm/hooks/` (disabled by default)
+- To retain app menu functionalities on Arch, copy the `firejail-fix.hook` from this repo to `/usr/share/libalpm/hooks/` (disabled by default)
 - Supporting the easy installation of [Firefox-UI-Fix](https://github.com/black7375/Firefox-UI-Fix#installation-guide), easily get back Photon UI or enhance the new Proton UI.
-
-Builds for Arch-based distros are available at [Chaotic-AUR](https://aur.chaotic.cx).
 
 <img src="https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/home.png/" alt="FireDragon Screenshot">
 <img src="https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/about.png/" alt="About FireDragon" >
