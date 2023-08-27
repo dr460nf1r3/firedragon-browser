@@ -7,7 +7,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  build_appimage:
     runs-on: ubuntu-latest
     timeout-minutes: 1440
     steps:
@@ -19,11 +19,8 @@ jobs:
       - name: Build Appimage via nix bundle
         run: nix bundle --bundler github:ralismark/nix-appimage github:chaotic-cx/nyx/nyxpkgs-unstable#firedragon
 
-      - name: Get version right
-        run: filename=$(ls | grep firedragon)
-
       - name: Upload Appimage
         uses: actions/upload-artifact@v3
         with:
           name: FireDragon AppImage
-          path: *.AppImage
+          path: "*.AppImage"
