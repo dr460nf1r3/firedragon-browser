@@ -1,4 +1,6 @@
-# FireDragon settings
+[![Build Appimage](https://github.com/dr460nf1r3/firedragon-browser/actions/workflows/build_appimage.yml/badge.svg)](https://github.com/dr460nf1r3/firedragon-browser/actions/workflows/build_appimage.yml)
+
+# FireDragon
 
 We encourage users to find **their own setup** and to use our default configuration as something to build on top of using:
 -> `~/.firedragon/firedragon.overrides.cfg`
@@ -19,6 +21,7 @@ Differences from LibreWolf:
 - Keeping settings in sync with Librewolfs changes
 - Firefox accounts are enabled using a custom self-hosted sync server (`ffsync.garudalinux.org`)
 - Presets for both `profile-sync-daemon` (which Garuda Linux ships by default) & `Firejail` are available
+- AppImage builds available via GitHub actions ([click me](https://github.com/dr460nf1r3/firedragon-browser/actions/workflows/build_appimage.yml), need need to be logged in in order to download)
 - Archlinux builds available at [Chaotic-AUR](https://chaotic.cx)
 - NixOS builds available at [Chaotic-Nyx](https://github.com/chaotic-aur/nyx)
 - Icons & artwork by [SGS](https://gitlab.com/SGSm) & [zoeruda](https://gitlab.com/zoeruda)
