@@ -12,7 +12,7 @@ jobs:
     timeout-minutes: 1440
     steps:
       - name: Install Nix
-        uses: cachix/install-nix-action@v22
+        uses: DeterminateSystems/nix-installer-action@v4
         with:
           extra_nix_config: "accept-flake-config = true"
 
