@@ -14,7 +14,7 @@ jobs:
       - name: Install Nix
         uses: DeterminateSystems/nix-installer-action@v4
         with:
-          extra_nix_config: "accept-flake-config = true"
+          extra-conf: "accept-flake-config = true"
 
       - name: Build Appimage via nix bundle
         run: nix bundle --bundler github:ralismark/nix-appimage github:chaotic-cx/nyx/nyxpkgs-unstable#firedragon
