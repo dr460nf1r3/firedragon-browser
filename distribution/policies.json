@@ -1,6 +1,6 @@
 {
   "policies": {
-    "AppUpdateURL": "https://localhost",
+    "DisableAppUpdate": true,
     "DisableDeveloperTools": false,
     "DisableFeedbackCommands": true,
     "DisableFirefoxStudies": true,
@@ -22,24 +22,27 @@
     },
     "Extensions": {
       "Install": [
-        "https://addons.mozilla.org/firefox/downloads/file/3365502/sweet_dark-4.0.xpi",
-        "https://addons.mozilla.org/firefox/downloads/file/4128489/darkreader-4.9.64.xpi",
-        "https://addons.mozilla.org/firefox/downloads/file/4121906/ublock_origin-1.50.0.xpi"
-      ],
-      "Uninstall": [
-        "bing@search.mozilla.org",
-        "amazondotcom@search.mozilla.org",
-        "ebay@search.mozilla.org",
-        "twitter@search.mozilla.org"
+        "https://addons.mozilla.org/firefox/downloads/latest/sweet-dark/latest.xpi",
+        "https://addons.mozilla.org/firefox/downloads/latest/darkreader/latest.xpi",
+        "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi"
       ]
+    },
+    "3rdparty": {
+      "Extensions": {
+        "uBlock0@raymondhill.net": {
+          "adminSettings": {
+            "assetsBootstrapLocation": "https://codeberg.org/librewolf/source/raw/branch/main/assets/uBOAssets.json"
+          }
+        }
+      }
     },
     "SearchEngines": {
       "PreventInstalls": false,
       "Default": "Garuda searX",
-      "Remove": ["Bing", "Amazon.com", "eBay", "Twitter"],
+      "Remove": ["Bing", "You.com", "SearXNG"],
       "Add": [
         {
-          "Name": "Garuda searX",
+          "Name": "Garuda's searX",
           "Description": "A privacy-respecting, hackable metasearch engine",
           "Alias": "sx",
           "Method": "POST",
@@ -48,7 +51,7 @@
           "IconURL": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjxzdmcgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bWxuczpjYz0iaHR0cDovL2NyZWF0aXZlY29tbW9ucy5vcmcvbnMjIiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgaWQ9InN2ZzgiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDkyIDkyIiBoZWlnaHQ9IjkybW0iIHdpZHRoPSI5Mm1tIj4KICA8ZGVmcyBpZD0iZGVmczIiLz4KICA8bWV0YWRhdGEgaWQ9Im1ldGFkYXRhNSI+CiAgICA8cmRmOlJERj4KICAgICAgPGNjOldvcmsgcmRmOmFib3V0PSIiPgogICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2Uvc3ZnK3htbDwvZGM6Zm9ybWF0PgogICAgICAgIDxkYzp0eXBlIHJkZjpyZXNvdXJjZT0iaHR0cDovL3B1cmwub3JnL2RjL2RjbWl0eXBlL1N0aWxsSW1hZ2UiLz4KICAgICAgICA8ZGM6dGl0bGUvPgogICAgICA8L2NjOldvcms+CiAgICA8L3JkZjpSREY+CiAgPC9tZXRhZGF0YT4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNDAuOTIxMzAzLC0xNy40MTY1MjYpIiBpZD0ibGF5ZXIxIj4KICAgIDxjaXJjbGUgcj0iMCIgc3R5bGU9ImZpbGw6bm9uZTtzdHJva2U6IzAwMDAwMDtzdHJva2Utd2lkdGg6MTI7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLW9wYWNpdHk6MSIgY3k9IjkyIiBjeD0iNzUiIGlkPSJwYXRoMzcxMyIvPgogICAgPGNpcmNsZSByPSIzMCIgY3k9IjUzLjkwMjU1NyIgY3g9Ijc1LjkyMTMwMyIgaWQ9InBhdGg4MzQiIHN0eWxlPSJmaWxsOm5vbmU7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOiMzMDUwZmY7c3Ryb2tlLXdpZHRoOjEwO3N0cm9rZS1taXRlcmxpbWl0OjQ7c3Ryb2tlLWRhc2hhcnJheTpub25lO3N0cm9rZS1vcGFjaXR5OjEiLz4KICAgIDxwYXRoIGQ9Im0gNjcuNTE0ODQ5LDM3LjkxNTI0IGEgMTgsMTggMCAwIDEgMjEuMDUxNDc1LDMuMzEyNDA3IDE4LDE4IDAgMCAxIDMuMTM3MzEyLDIxLjA3ODI4MiIgaWQ9InBhdGg4NTIiIHN0eWxlPSJmaWxsOm5vbmU7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlOiMzMDUwZmY7c3Ryb2tlLXdpZHRoOjU7c3Ryb2tlLW1pdGVybGltaXQ6NDtzdHJva2UtZGFzaGFycmF5Om5vbmU7c3Ryb2tlLW9wYWNpdHk6MSIvPgogICAgPHJlY3QgdHJhbnNmb3JtPSJyb3RhdGUoLTQ2LjIzNDcwOSkiIHJ5PSIxLjg2NjkxMDVlLTEzIiB5PSIxMjIuMDg5OTUiIHg9IjMuNzA2MzUyOSIgaGVpZ2h0PSIzOS45NjMzMDMiIHdpZHRoPSIxOC44NDYzMzEiIGlkPSJyZWN0OTEyIiBzdHlsZT0ib3BhY2l0eToxO2ZpbGw6IzMwNTBmZjtmaWxsLW9wYWNpdHk6MTtzdHJva2U6bm9uZTtzdHJva2Utd2lkdGg6ODtzdHJva2UtbWl0ZXJsaW1pdDo0O3N0cm9rZS1kYXNoYXJyYXk6bm9uZTtzdHJva2Utb3BhY2l0eToxIi8+CiAgPC9nPgo8L3N2Zz4="
         },
         {
-          "Name": "Garuda Whoogle",
+          "Name": "Garuda's Whoogle",
           "Description": "Minimal, ad-free version of Google search",
           "Alias": "wg",
           "Method": "GET",
