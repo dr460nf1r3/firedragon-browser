@@ -1,0 +1,49 @@
+
+// Use these settings in ~/.firedragon/firedragon.overrides.cfg to retain strict policy.
+
+// Session restore / referer
+lockPref("network.http.referer.XOriginPolicy", 1);
+defaultPref("network.cookie.lifetimePolicy", 2);
+defaultPref("privacy.cpd.offlineApps", true);
+defaultPref("places.history.enabled", false);
+lockPref("browser.sessionstore.privacy_level", 2);
+lockPref("browser.startup.page", 0)
+
+// Sanitize options
+defaultPref("privacy.clearOnShutdown.siteSettings", true); // Site Preference
+defaultPref("privacy.clearOnShutdown.cookies", true);
+defaultPref("privacy.clearOnShutdown.offlineApps", true);
+defaultPref("privacy.clearOnShutdown.downloads", true); // see note above
+defaultPref("privacy.clearOnShutdown.formdata", true); // Form & Search History
+defaultPref("privacy.clearOnShutdown.sessions", true); // Active Logins
+defaultPref("privacy.clearOnShutdown.history", true); // Browsing & Download History
+defaultPref("privacy.sanitize.sanitizeOnShutdown", true);
+
+// Librewolf suggested hardening
+defaultPref("javascript.options.asmjs", false); // disable asm.js
+defaultPref("javascript.options.wasm", false); // disable web assembly
+defaultPref("webgl.disabled", true); // disable webgl
+defaultPref("privacy.resistFingerprinting.letterboxing", true); // enable letterboxing
+defaultPref("dom.event.clipboardevents.enabled", false); // disable user triggered clipboard access
+
+// DRM
+defaultPref("media.eme.enabled", false);
+defaultPref("media.gmp-widevinecdm.visible", false);
+defaultPref("media.gmp-widevinecdm.enabled", false);
+defaultPref("media.gmp-provider.enabled", false);
+
+// Webconferencing
+defaultPref("media.peerconnection.enabled", false);
+defaultPref("media.peerconnection.ice.no_host", false);
+
+// Connectivity service
+lockPref("network.connectivity-service.enabled", false);
+lockPref("network.connectivity-service.IPv6.url", "http://0.0.0.0");
+lockPref("network.connectivity-service.IPv4.url", "http://0.0.0.0");
+lockPref("network.connectivity-service.DNSv6.domain", "");
+lockPref("network.connectivity-service.DNSv4.domain", "");
+
+// Other
+defaultPref("privacy.userContext.enabled", false);
+defaultPref("webgl.enable-webgl2", false);
+lockPref("identity.sync.tokenserver.uri", "");
