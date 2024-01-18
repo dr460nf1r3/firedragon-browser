@@ -31,6 +31,7 @@ Differences from LibreWolf:
 
 <img src="https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/home.png/" alt="FireDragon Screenshot">
 <img src="https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/about.png/" alt="About FireDragon" >
+<img src="https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/firefox-wordmark.png/" alt="firefox-wordmark" >
 
 Credits go to Mozilla, Arch Linux, and:
 
