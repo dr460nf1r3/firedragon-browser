@@ -2,19 +2,11 @@
 
 # FireDragon
 
-We encourage users to find **their own setup** and to use our default configuration as something to build on top of using:
--> `~/.firedragon/firedragon.overrides.cfg`
-
-This repository benefits from the knowledge and research provided by [arkenfox](https://github.com/arkenfox), their documentation was vital to this revamp, so special thanks to their project.
-We do not use arkenfox's user.js but we try to keep up with it, and we also consider it a great resource for users who want to find their own setup.
-
-Some of the older prefs in this project are taken from [pyllyukko](https://github.com/pyllyukko/user.js/) and many more were investigated on [bugzilla](https://bugzilla.mozilla.org/home).
-
-Differences from LibreWolf:
+FireDragon is a browser based on the excellent [Floorp browser](https://floorp.app/en). It was customized to have [dr460nized](https://garudalinux.org/images/garuda/download/dr460nized/garuda-dr460nized.webp)-fitting aestetics as well as many opiniated settings by default. As this browser was originally a Librewolf fork, we are trying to integrate its best patches and tweaks in the new base. The most important features in addition of Floorps own ones can be found below.
 
 - Compatible with Wayland, set `MOZ_ENABLE_WAYLAND=1` as an environment variable to enable using it
 - [Searx](https://searx.garudalinux.org/) & [Whoogle](https://search.garudalinux.org/) search engines added, with the possibility to run locally with fitting opt-depends installed
-- The default search engine is Garudas [Searx instance](https://searx.garudalinux.org)
+- The default search engine is Garuda's [Searx instance](https://searx.garudalinux.org)
 - [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
 - Sweet theme added
 - Custom, dr460nized branding :dragon:
@@ -24,10 +16,14 @@ Differences from LibreWolf:
 - AppImage builds available via GitHub actions ([click me](https://github.com/dr460nf1r3/firedragon-browser/actions/workflows/build_appimage.yml), need need to be logged in in order to download)
 - Archlinux builds available at [Chaotic-AUR](https://chaotic.cx)
 - NixOS builds available at [Chaotic-Nyx](https://github.com/chaotic-aur/nyx)
-- Icons & artwork by [SGS](https://gitlab.com/SGSm) & [zoeruda](https://gitlab.com/zoeruda)
-- The Tabliss setup from the screenshot can be imported from `tabliss.json` (needs Tabliss addon installed)
-- To retain app menu functionalities on Arch, copy the `firejail-fix.hook` from this repo to `/usr/share/libalpm/hooks/` (disabled by default)
-- Supporting the easy installation of [Firefox-UI-Fix](https://github.com/black7375/Firefox-UI-Fix#installation-guide), easily get back Photon UI or enhance the new Proton UI.
+- Faster webpages loading from:
+  - Custom Firedragon settings
+  - Inclusion of [FastFox tweaks](https://github.com/yokoffing/Betterfox/blob/main/README.md)
+- Artwork by [@SGS](https://forum.garudalinux.org/u/sgs)
+- Hidden Navigation buttons instead of being greyed out when they are inactive
+- Spoofing Chrome on Windows (through Floorp's User Agent switcher) when not using Fingerprinting
+- [PBMode Security](https://wiki.mozilla.org/Security/Tracking_protection)
+- Latest Fingerprinting as an option in `firedragon.cfg` (you can copy to your own `firedragon.overrides.cfg` and enable there)
 
 <img src="https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/home.png/" alt="FireDragon Screenshot">
 <img src="https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/about.png/" alt="About FireDragon" >
@@ -35,6 +31,7 @@ Differences from LibreWolf:
 
 Credits go to Mozilla, Arch Linux, and:
 
+- The [Floorp project](https://floorp.app/en)
 - The [Librewolf](https://librewolf-community.gitlab.io/) project
 - torvic9 & his retired [Plasmafox](https://github.com/torvic9/plasmafox)
 - [vnepogodin](https://aur.archlinux.org/account/vnepogodin)
