@@ -38,7 +38,7 @@
     },
     "SearchEngines": {
       "PreventInstalls": false,
-      "Default": "Garuda searX",
+      "Default": "Garuda's searX",
       "Remove": ["Bing", "You.com", "SearXNG"],
       "Add": [
         {
