@@ -25,6 +25,22 @@ FireDragon is a browser based on the excellent [Floorp browser](https://floorp.a
 - [PBMode Security](https://wiki.mozilla.org/Security/Tracking_protection)
 - Latest Fingerprinting as an option in `firedragon.cfg` (you can copy to your own `firedragon.overrides.cfg` and enable there)
 
+If you want to tweak behaviors or some of your workflows don't work well due to some features not triggered according to your preferences, here are some guidelines:
+
+TROUBLESHOOTING STEPS
+
+If you have some issues with Firedragon, follow these steps.
+
+    - Close the browser before anything else
+    - Create a new Profile by opening Terminal and typing 'firedragon -P' then creating a new Profile and launching from it to test your issue
+      -If the issue persists, rename '/usr/lib/firedragon/firedraon.cfg' and '~/.firedragon/[YOUR_PROFILE]/firedragon.overrides.cfg' to something else and relaunch Firedragon. The UI will look quite different (if not, you got file corruption) then test your issue.
+        -If the issue is gone, here are some Tips on how to find the setting in 'firedragon.cfg' that causes it:
+          -Instead of changing every setting one by one, delete an entire Category or Section. Then relaunch. If nothing changes, bring back the settings and perform the same action on the next Category/Section. Once it does change something, then you know for sure it’s 1 or multiple settings part of that Category/Settings. This method will save you huge amount of time.
+    - Change your User Agent to something different (it’s in the UI, Settings pane) and validate it did change before you test your issue by visiting websites such as https://www.whatismybrowser.com/detect/what-is-my-user-agent/
+
+If after all these steps you still get the same issue, then it is not Firedragon related.
+
+
 <img src="https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/home.png/" alt="FireDragon Screenshot">
 <img src="https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/about.png/" alt="About FireDragon" >
 <img src="https://gitlab.com/dr460nf1r3/dragonwolf-settings/-/raw/master/firefox-wordmark.png/" alt="firefox-wordmark" >
