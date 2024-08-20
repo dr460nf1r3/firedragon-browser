@@ -9,7 +9,7 @@
     "DisableProfileImport": false,
     "DisableSetDesktopBackground": false,
     "DisableTelemetry": true,
-    "OverrideFirstRunPage": "",
+    "OverrideFirstRunPage": "https://firedragon.garudalinux.org/intro",
     "OverridePostUpdatePage": "",
     "DNSOverHTTPS": {
       "Enabled": false,
